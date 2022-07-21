@@ -1,16 +1,26 @@
----
-title: Git workflows
-intro: '{% data variables.product.prodname_dotcom %} flow is a lightweight, branch-based workflow that supports teams and projects that deploy regularly.'
-redirect_from:
-  - /articles/what-is-a-good-git-workflow
-  - /articles/git-workflows
-  - /github/using-git/git-workflows
-  - /github/getting-started-with-github/git-workflows
-  - /github/getting-started-with-github/getting-started-with-git/git-workflows
-versions:
-  fpt: '*'
-  ghes: '*'
-  ghae: '*'
-  ghec: '*'
----
-You can adopt the {% data variables.product.prodname_dotcom %} flow method to standardize how your team functions and collaborates on {% data variables.product.prodname_dotcom %}. For more information, see "[{% data variables.product.prodname_dotcom %} flow](/github/getting-started-with-github/github-flow)."
+gender = input("What is your gender? ")
+Height=float(input("Enter your height in centimeters: "))
+Weight=float(input("Enter your Weight in Kg: "))
+Height = Height/100
+BMI=Weight/(Height*Height)
+print("your Body Mass Index is: ",BMI)
+if(BMI>0):
+	if(BMI<=18.4):
+		print("you are Underweight")
+                print("You are with Malnutrition risk")
+	elif(BMI>=18.5 and <=24.9):
+		print("you are Normalweight")
+                print("You are a Low Risk Person")
+	elif(BMI>= 25 and <=29.9):
+		print("you are Overweight")
+                print("You are an Enhanced Risk Person")
+	elif(BMI>=30 and <=34.9):
+		print("you are ModeratelyObese")
+                print("You are a Medium Risk Person")
+        elif(BMI>=35 and <=39.9):
+                print("you are SeverelyObese")
+                print("You are a High Risk Person")
+	else: print("you are VeryseverelyObese")
+              print("You are a Very High Risk Person")
+else:("enter valid details")
+-----------------------------------------------------------------------------------------------
